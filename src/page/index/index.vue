@@ -13,8 +13,8 @@
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
         </div>
         <!-- 信息通知 -->
         <div class="notice text-center">
@@ -223,6 +223,7 @@ body {
         overflow: hidden;
         li {
             height: 21px;
+            color: #ff4f39;
         }
     }
 }

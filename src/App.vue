@@ -86,8 +86,8 @@ header {
 }
 .title-name {
     line-height: 39px;
-    background-color: #f0550d;
-    color: #fff;
+    background-color: #fff;
+    color: #ff4f39;
 }
 
 /* 导航栏 */

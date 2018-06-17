@@ -75,6 +75,16 @@
             </ul>
             <button class="layui-btn layui-btn-fluid">前往支付</button>
 
+<form class="layui-form layui-form-pane" action="">
+  <div class="layui-form-item" pane>
+    <label class="layui-form-label">单选框</label>
+    <div class="layui-input-block">
+      <input type="radio" name="sex" value="男" title="男">
+      <input type="radio" name="sex" value="女" title="女" checked>
+    </div>
+  </div>
+</form>
+
         </div>
 
     </div>
@@ -82,15 +92,27 @@
 
 <script>
 import "layui-css";
-// import Layui from "layui-js";
+import Layui from "layui-js";
 
+// layui.use('form', function(){
+// var form = layui.form(); 
+// form.render();
+// });
 export default {
     name: "test",
     data() {
         return {
             msg: "Welcome to Your Vue.js App"
+            
         };
+    },
+    mounted(){
+        layui.use('form', function(){  
+                var form = layui.form;   
+                form.render();  
+        });   
     }
+
 };
 </script>
 
@@ -142,7 +164,7 @@ export default {
             .product-number-text {
                 width: 50px;
                 height: 22px;
-                input{
+                input {
                     text-align: center;
                     height: 22px;
                 }
