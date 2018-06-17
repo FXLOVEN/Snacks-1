@@ -10,6 +10,8 @@ import Classification from '@page/Classification/Classification'
 import ShoppingCart from '@page/shopping-cart/ShoppingCart'
 import ShoppingCartNull from '@page/shopping-cart/ShoppingCartNull'
 import Information from '@page/Information/Information'
+import PersonalData from '@page/Information/PersonalData'
+import Address from '@page/Information/Address'
 import BookDetails from '@page/book-details/BookDetails'
 
 Vue.use(Router)
@@ -50,6 +52,16 @@ export default new Router({
             path: '/bookdetails',
             name: 'BookDetails',
             component: BookDetails
+        },
+        {
+            path: '/personaldata',
+            name: 'PersonalData',
+            component: PersonalData
+        },
+        {
+            path: '/address',
+            name: 'Address',
+            component: Address
         },
 
 
