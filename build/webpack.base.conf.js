@@ -32,7 +32,9 @@ module.exports = {
       'swiper-css':'swiper/dist/css/swiper.css',
       'swiper-js':'swiper/dist/js/swiper.js',
       'layui-css':'layui-src/dist/css/layui.css',
-      'layui-js':'layui-src/dist/layui.all.js'
+      'layui-js':'layui-src/dist/layui.all.js',
+      'amazeui-css':'amazeui/dist/css/amazeui.min.css',
+      'amazeui-js':'amazeui/dist/js/amazeui.min.js'
     }
   },
   module: {
